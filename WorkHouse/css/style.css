@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* selectors */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+table {
+  margin-top: 100px;
+  border: 1px solid #000;  /*линии таблицы*/
+  border-collapse: collapse;
+  font-family: 'Graphic LCG', sans-serif;
+  }
+
+th, td {
+  margin-top: 100px;
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+h2 {
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+ol, ul {
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+p{
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+
+figure{
+  display: inline-block;
+  text-align: center;
+  padding-left: 180px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* classsss */
+
+.main-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
+}
+
+
+.gain-name{
+
+  color: white;
+  font-family: 'Graphic LCG', sans-serif;
+  margin-bottom: 30px;
+
+}
+
+.download-main {
+
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  border:3px solid #2f1ce4;
+  margin-right: 5px;
+
+}
+
+.more-main{
+
+  padding:20px;
+  color: white;
+  background-color: transparent;
+  border:3px solid white;
+  }
+
+.g1{
+  display:flex;
+  flex-direction: row;  /*Выравнивание в строку. без дисплей:флех не работает*/;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  }
+
+.index{
+  position: fixed;
+  top: 30px;
+  margin: 0 auto;
+  padding-left: 30px;
+  background-image: url(../image/return.png);
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+.info-course{
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+}
+
+
